@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Logger'
+  s.name             = 'Logger-Avinash'
   s.version          = '0.1.0'
   s.summary          = 'The pod is helful to do Basic calulation like sum, subtraction and Multiplication etc.'
 
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'The pod is helful to do Basic calulation like sum, subtraction and Multiplication etc. You can Use Easily '
 
   s.homepage         = 'https://github.com/avinash-cssoftsolution/Logger-Avinash.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,8 +26,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/avinash-cssoftsolution/Logger-Avinash.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '14.0'
+  s.swift_version = '5.0'
+  s.frameworks = 'UIKit', 'Foundation'
   s.source_files = 'Logger/Classes/**/*'
   
   # s.resource_bundles = {
