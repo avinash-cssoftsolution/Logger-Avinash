@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* Logger_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Logger_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		875A0F42D03041CCD921E761 /* Logger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Logger.podspec; path = ../Logger.podspec; sourceTree = "<group>"; };
+		875A0F42D03041CCD921E761 /* Logger-Avinash.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Logger-Avinash.podspec"; path = "../Logger-Avinash.podspec"; sourceTree = "<group>"; };
 		96A1D9DAE13FFD35A8AD53D4 /* Pods_Logger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Logger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABCE6B12096419E7A4B0941 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EA2C9F7A93E32D3D338FB977 /* Pods-Logger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logger_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Logger_Tests/Pods-Logger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				875A0F42D03041CCD921E761 /* Logger.podspec */,
+				875A0F42D03041CCD921E761 /* Logger-Avinash.podspec */,
 				AABCE6B12096419E7A4B0941 /* README.md */,
 				54580EC3B83FB13D8E1372A9 /* LICENSE */,
 			);
