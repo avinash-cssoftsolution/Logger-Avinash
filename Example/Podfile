@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'Logger_Example' do
-  pod 'Logger', :path => '../'
+  pod 'Logger', :git => 'https://github.com/avinash-cssoftsolution/Logger-Avinash.git'
 
   target 'Logger_Tests' do
     inherit! :search_paths
