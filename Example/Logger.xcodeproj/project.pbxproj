@@ -479,11 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Logger/Info.plist;
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-=======
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
->>>>>>> 629b7de670b0222861beb424ce4d19f0966a8d11
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -499,11 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Logger/Info.plist;
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-=======
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
->>>>>>> 629b7de670b0222861beb424ce4d19f0966a8d11
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -526,11 +518,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-=======
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
->>>>>>> 629b7de670b0222861beb424ce4d19f0966a8d11
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -549,11 +537,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-=======
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
->>>>>>> 629b7de670b0222861beb424ce4d19f0966a8d11
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
