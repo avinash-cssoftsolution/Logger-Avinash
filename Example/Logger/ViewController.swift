@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import Logger
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let logger = LoggerTest()
+        let sum = logger.sumOfTwoNumber(a: 5, b: 5)
+        print("ViewController Sum",sum)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

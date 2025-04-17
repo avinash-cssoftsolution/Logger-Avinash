@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Logger'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Logger.'
+  s.summary          = 'The pod is helful to do Basic calulation like sum, subtraction and Multiplication etc.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/avinash@cssoftsolutions.com/Logger'
+  s.homepage         = 'https://github.com/avinash-cssoftsolution/Logger-Avinash.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'avinash@cssoftsolutions.com' => 'avinash@cssoftsolutions.com' }
-  s.source           = { :git => 'https://github.com/avinash@cssoftsolutions.com/Logger.git', :tag => s.version.to_s }
+  s.author           = { 'Avinash' => 'avinash@cssoftsolutions.com' }
+  s.source           = { :git => 'https://github.com/avinash-cssoftsolution/Logger-Avinash.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
