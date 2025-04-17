@@ -27,4 +27,8 @@ public class LoggerTest {
         print("Sum of Two Number",a*b)
         return a*b
     }
+    public func DivisiobOfTwoNumber(a:Int,b:Int) -> Int {
+        print("Sum of Two Number",a/b)
+        return a*b
+    }
 }
