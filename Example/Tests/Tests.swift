@@ -1,5 +1,5 @@
 import XCTest
-import Logger
+import Logger_Avinash
 
 class Tests: XCTestCase {
     

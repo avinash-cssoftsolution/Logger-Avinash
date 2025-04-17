@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '15.0'
 
 target 'Logger_Example' do
   pod 'Logger-Avinash', :git => 'https://github.com/avinash-cssoftsolution/Logger-Avinash.git'

@@ -289,11 +289,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Logger_Example/Pods-Logger_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Logger/Logger.framework",
+				"${BUILT_PRODUCTS_DIR}/Logger-Avinash/Logger_Avinash.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logger_Avinash.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

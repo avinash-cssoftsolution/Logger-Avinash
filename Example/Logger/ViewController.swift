@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Logger
+import Logger_Avinash
 
 class ViewController: UIViewController {
 
