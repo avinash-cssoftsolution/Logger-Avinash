@@ -17,7 +17,7 @@ Logger is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Logger'
+pod 'Logger-Avinash', :git => 'https://github.com/avinash-cssoftsolution/Logger-Avinash.git'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ avinash@cssoftsolutions.com, avinash@cssoftsolutions.com
 
 ## License
 
-Logger is available under the MIT license. See the LICENSE file for more info.
+Logger-Avinash is available under the MIT license. See the LICENSE file for more info.
