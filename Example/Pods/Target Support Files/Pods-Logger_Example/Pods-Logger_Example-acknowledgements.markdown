@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Logger
+## Logger-Avinash
 
 Copyright (c) 2025 avinash@cssoftsolutions.com <avinash@cssoftsolutions.com>
 

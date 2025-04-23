@@ -1,0 +1,6 @@
+framework module Logger_Avinash {
+  umbrella header "Logger-Avinash-umbrella.h"
+
+  export *
+  module * { export * }
+}

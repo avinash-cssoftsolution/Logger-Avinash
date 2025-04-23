@@ -1,16 +1,21 @@
 PODS:
-  - Logger (0.1.0)
+  - Logger-Avinash (0.1.0)
 
 DEPENDENCIES:
-  - Logger (from `../`)
+  - Logger-Avinash (from `https://github.com/avinash-cssoftsolution/Logger-Avinash.git`)
 
 EXTERNAL SOURCES:
-  Logger:
-    :path: "../"
+  Logger-Avinash:
+    :git: https://github.com/avinash-cssoftsolution/Logger-Avinash.git
+
+CHECKOUT OPTIONS:
+  Logger-Avinash:
+    :commit: a758a636d41be1cc97b58804ea9dd9d43d5a1367
+    :git: https://github.com/avinash-cssoftsolution/Logger-Avinash.git
 
 SPEC CHECKSUMS:
-  Logger: 96a2ebb65361782ff05ead974462dfffaa55056b
+  Logger-Avinash: cc4100aa9e2ee77440502055ec64d415faf14689
 
-PODFILE CHECKSUM: c27e6e89dd69fa4d4c2c853d71922677dc11bb24
+PODFILE CHECKSUM: 1e997e3e4618a12257d05c6d71efbc8ce250a391
 
 COCOAPODS: 1.16.2

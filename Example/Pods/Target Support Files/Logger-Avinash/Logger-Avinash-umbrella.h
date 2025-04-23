@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double LoggerVersionNumber;
-FOUNDATION_EXPORT const unsigned char LoggerVersionString[];
+FOUNDATION_EXPORT double Logger_AvinashVersionNumber;
+FOUNDATION_EXPORT const unsigned char Logger_AvinashVersionString[];
 
