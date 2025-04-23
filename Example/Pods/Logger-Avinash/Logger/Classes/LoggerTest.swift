@@ -31,14 +31,10 @@ public class LoggerTest {
         print("Sum of Two Number",a/b)
         return a*b
     }
-    public func tableOFTwo() {
-        for num in 1...10{
-            print("2 * \(num) = \(2*num)")
+    public func tableOfTen(){
+        for i in 1...10 {
+            print("10 x \(i) = \(10 * i)")
         }
-    }
-    public func tableOFFive() {
-        for num in 1...10{
-            print("5 * \(num) = \(5*num)")
-        }
+
     }
 }

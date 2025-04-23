@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         let logger = LoggerTest()
         let sum = logger.sumOfTwoNumber(a: 5, b: 5)
         print("ViewController Sum",sum)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
