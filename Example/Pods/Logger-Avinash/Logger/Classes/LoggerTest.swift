@@ -36,4 +36,9 @@ public class LoggerTest {
             print("2 * \(num) = \(2*num)")
         }
     }
+    public func tableOFFive() {
+        for num in 1...10{
+            print("5 * \(num) = \(5*num)")
+        }
+    }
 }
