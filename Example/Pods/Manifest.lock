@@ -1,5 +1,5 @@
 PODS:
-  - Logger-Avinash (0.1.0)
+  - Logger-Avinash (0.3.0)
 
 DEPENDENCIES:
   - Logger-Avinash (from `https://github.com/avinash-cssoftsolution/Logger-Avinash.git`)
@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Logger-Avinash:
-    :commit: a758a636d41be1cc97b58804ea9dd9d43d5a1367
+    :commit: 3379530e3d141d5c4621367bcddceda57decdf46
     :git: https://github.com/avinash-cssoftsolution/Logger-Avinash.git
 
 SPEC CHECKSUMS:
-  Logger-Avinash: cc4100aa9e2ee77440502055ec64d415faf14689
+  Logger-Avinash: 0c8acc3e8ad6fa1c16c322b373e125c5dd65d091
 
 PODFILE CHECKSUM: 1e997e3e4618a12257d05c6d71efbc8ce250a391
 

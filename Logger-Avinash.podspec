@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Logger-Avinash'
-  s.version          = '0.3.0'
+  s.version          = '0.4.1'
   s.summary          = 'The pod is helful to do Basic calulation like sum, subtraction and Multiplication etc.'
 
 # This description is used to generate tags and improve search results.
@@ -38,4 +38,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '~> 5.6'
 end

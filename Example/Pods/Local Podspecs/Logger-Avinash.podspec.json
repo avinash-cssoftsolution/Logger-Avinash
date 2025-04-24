@@ -1,6 +1,6 @@
 {
   "name": "Logger-Avinash",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "The pod is helful to do Basic calulation like sum, subtraction and Multiplication etc.",
   "description": "The pod is helful to do Basic calulation like sum, subtraction and Multiplication etc. You can Use Easily",
   "homepage": "https://github.com/avinash-cssoftsolution/Logger-Avinash.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/avinash-cssoftsolution/Logger-Avinash.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "14.0"
