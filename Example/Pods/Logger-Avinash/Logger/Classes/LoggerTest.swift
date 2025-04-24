@@ -28,14 +28,4 @@ public class LoggerTest {
         print("Sum of Two Number",a/b)
         return a*b
     }
-    public func tableOfTen(){
-        for i in 1...10 {
-            print("10 * \(i) = \(10 * i)")
-        }
-    }
-    public func tableOfTWelve(){
-        for i in 1...10 {
-            print("12 * \(i) = \(12 * i)")
-        }
-    }
 }

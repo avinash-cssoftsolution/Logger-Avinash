@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Logger-Avinash'
-  s.version          = '0.2.1'
+  s.version          = '0.3.0'
   s.summary          = 'The pod is helful to do Basic calulation like sum, subtraction and Multiplication etc.'
 
 # This description is used to generate tags and improve search results.

