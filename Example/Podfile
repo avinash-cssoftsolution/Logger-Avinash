@@ -4,7 +4,7 @@ platform :ios, '15.0'
 
 target 'Logger_Example' do
   pod 'Logger-Avinash', :git => 'https://github.com/avinash-cssoftsolution/Logger-Avinash.git'
-
+  pod ‘Alamofire’
   target 'Logger_Tests' do
     inherit! :search_paths
 

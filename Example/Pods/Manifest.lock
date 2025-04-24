@@ -1,8 +1,15 @@
 PODS:
-  - Logger-Avinash (0.3.0)
+  - Alamofire (5.10.2)
+  - Logger-Avinash (0.4.1):
+    - Alamofire (~> 5.6)
 
 DEPENDENCIES:
+  - Alamofire
   - Logger-Avinash (from `https://github.com/avinash-cssoftsolution/Logger-Avinash.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   Logger-Avinash:
@@ -10,12 +17,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Logger-Avinash:
-    :commit: 3379530e3d141d5c4621367bcddceda57decdf46
+    :commit: a47ed29a66e440be3e7b41280146c6b040e8da59
     :git: https://github.com/avinash-cssoftsolution/Logger-Avinash.git
 
 SPEC CHECKSUMS:
-  Logger-Avinash: 0c8acc3e8ad6fa1c16c322b373e125c5dd65d091
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  Logger-Avinash: e6c63fe62a490f43a3aaf1e138b5602e962e9d21
 
-PODFILE CHECKSUM: 1e997e3e4618a12257d05c6d71efbc8ce250a391
+PODFILE CHECKSUM: 6f377206a5db77fbcea26f83ce873866a6bf814a
 
 COCOAPODS: 1.16.2

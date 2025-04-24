@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 
 public class LoggerTest {
     
@@ -36,4 +37,28 @@ public class LoggerTest {
             print("20 * \(i) = \(20*i)")
         }
     }
+    //
+    
+    
+    
 }
+
+public class APIService {
+    
+    public init() {}
+
+    public func fetchUsers(completion: @escaping (Result<Data, Error>) -> Void) {
+        let url = "https://reqres.in/api/users"
+
+        AF.request(url).responseData { response in
+            switch response.result {
+            case .success(let data):
+                completion(.success(data))
+            case .failure(let error):
+                completion(.failure(error))
+            }
+        }
+    }
+}
+
+
