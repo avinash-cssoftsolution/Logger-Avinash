@@ -28,4 +28,5 @@ public class LoggerTest {
         print("Sum of Two Number",a/b)
         return a*b
     }
+  
 }

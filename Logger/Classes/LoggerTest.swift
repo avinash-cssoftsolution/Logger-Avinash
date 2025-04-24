@@ -31,4 +31,9 @@ public class LoggerTest {
         print("Sum of Two Number",a/b)
         return a*b
     }
+    public func TableOfTwenty(){
+        for i in 1...10{
+            print("20 * \(i) = \(20*i)")
+        }
+    }
 }
