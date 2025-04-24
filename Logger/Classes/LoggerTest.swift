@@ -41,4 +41,9 @@ public class LoggerTest {
             print("5 * \(num) = \(5*num)")
         }
     }
+    public func tableOFTHirtenn() {
+        for num in 1...10{
+            print("13 * \(num) = \(13*num)")
+        }
+    }
 }
